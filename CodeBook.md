@@ -11,7 +11,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist. 
 
-In this work I use the following files:
+###In this work I use the following files:
 ========================================
 
 './UCI HAR Dataset/activity_labels.txt': Links the class labels with their activity name.
@@ -34,7 +34,7 @@ In this work I use the following files:
 
 ### The Variables
 
-For each record in the tidy data set it is provided:
+###For each record in the tidy data set it is provided:
 =====================================================
 
 - The activity label (variable activity_label). 
