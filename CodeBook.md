@@ -121,17 +121,17 @@ fbodybodygyrojerkmag_std
 
 The code does the following:
 
-#### Downloads the file: 
+##### Downloads the file: 
 
 Downloads the given url, and unzip the file
 
 
-#### Reads the Data:
+##### Reads the Data:
 
 Reads the training set and the test set (X_train.txt and X_test.txt)
 
 
-#### Reads activities, subjects and labels
+##### Reads activities, subjects and labels
 
 - Activities: activity_labels.txt
 
@@ -140,26 +140,26 @@ Reads the training set and the test set (X_train.txt and X_test.txt)
 - Subjects: subject_test.txt, subject_train.txt
 
 
-#### Merges the training and the test sets to create one data set
+##### Merges the training and the test sets to create one data set
 
 
-#### Extracts the measurements on the mean and standard deviation for each measurement.
+##### Extracts the measurements on the mean and standard deviation for each measurement.
 
 
-#### Appropriately labels the data set with descriptive variable names
+##### Appropriately labels the data set with descriptive variable names
 
 - Puts lowercase the variables names
 - Removes the "()" from the variables names
 - Replaces "-" by "_"
 
 
-#### Names the activities in the data set with the activity names
+##### Names the activities in the data set with the activity names
 
-#### Merges the subjects to the data
+##### Merges the subjects to the data
 
-#### Creates a new tidy data set with the average of each variable for each activity and each subject
+##### Creates a new tidy data set with the average of each variable for each activity and each subject
 
-#### Creates a txt file with de tidy data: "tidy_data_set.txt"
+##### Creates a txt file with de tidy data: "tidy_data_set.txt"
 
 
 The final data frame "result" looks like this:
